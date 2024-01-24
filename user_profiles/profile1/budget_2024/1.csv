@@ -1,0 +1,175 @@
+no,item_name,item_price,purchase_date
+1,Scarf,44,01/01/2024
+2,Plush Toy,40,01/01/2024
+3,Sunglasses Holder,128,01/01/2024
+4,Coasters,149,01/01/2024
+5,Basket,148,01/01/2024
+6,Desk Drawer Organizer Tray,93,01/01/2024
+7,Candle,130,02/01/2024
+8,Shower Curtain,67,02/01/2024
+9,Plant Stand,69,02/01/2024
+10,Desk Clock,69,02/01/2024
+11,Laptop Sleeve,99,02/01/2024
+12,Wireless Keyboard,44,02/01/2024
+13,Desk Lamp Stand,62,03/01/2024
+14,Bluetooth Headphones,73,03/01/2024
+15,Desk Organizer Set,97,03/01/2024
+16,Desk Clock,70,03/01/2024
+17,Keychain,128,04/01/2024
+18,Desk Fan,79,04/01/2024
+19,Toaster,23,05/01/2024
+20,Stuffed Animal,61,05/01/2024
+21,Desk Fan Stand,20,05/01/2024
+22,Desk Lamp,24,05/01/2024
+23,Bookends,13,05/01/2024
+24,Printer,31,06/01/2024
+25,Desk Lamp,95,06/01/2024
+26,Desk Organizer,65,06/01/2024
+27,Clock Radio,89,06/01/2024
+28,Desk Lamp,149,06/01/2024
+29,Smartwatch,117,07/01/2024
+30,Floor Lamp,30,07/01/2024
+31,Desk Drawer Lock,75,07/01/2024
+32,Coffee Maker,47,07/01/2024
+33,Desk Organizer Set,106,07/01/2024
+34,Wireless Mouse,106,07/01/2024
+35,Chair,32,08/01/2024
+36,TV Stand,93,08/01/2024
+37,Desk Lampshade,25,08/01/2024
+38,Desk Tray,10,08/01/2024
+39,Backpack,52,09/01/2024
+40,Mirror,20,09/01/2024
+41,Notebook,60,09/01/2024
+42,Laptop,100,10/01/2024
+43,Blanket,107,10/01/2024
+44,Bluetooth Speaker,30,10/01/2024
+45,Vase,118,10/01/2024
+46,Desk Chair,68,10/01/2024
+47,Back Scratcher,74,11/01/2024
+48,Coat Stand,14,11/01/2024
+49,Desk Drawer Organizer Set,102,11/01/2024
+50,Bookshelf,144,11/01/2024
+51,Drawer Organizer,80,11/01/2024
+52,Book,126,12/01/2024
+53,Toothbrush,71,12/01/2024
+54,Tablecloth,43,12/01/2024
+55,Wall Art,78,12/01/2024
+56,Art Supplies,56,12/01/2024
+57,Candle Holder,66,12/01/2024
+58,Clock,143,13/01/2024
+59,Table Lamp,101,13/01/2024
+60,Plant Pot,149,13/01/2024
+61,Wall Shelf,117,13/01/2024
+62,Letter Opener,113,13/01/2024
+63,Desk Accessories,72,13/01/2024
+64,Desk Tray,105,13/01/2024
+65,Desk Lamp,108,13/01/2024
+66,Pen Holder,34,13/01/2024
+67,Chess Set,37,14/01/2024
+68,Mouse,33,14/01/2024
+69,USB Hub,132,14/01/2024
+70,Drawer Pulls,63,14/01/2024
+71,Desk Shelf,129,14/01/2024
+72,Coffee Mug,50,15/01/2024
+73,Alarm Clock,66,15/01/2024
+74,Teapot,11,15/01/2024
+75,Back Massager,72,15/01/2024
+76,Lampshade,13,15/01/2024
+77,Magnetic Board,90,15/01/2024
+78,Laptop Stand,146,15/01/2024
+79,Pillow,65,16/01/2024
+80,Neck Pillow,59,16/01/2024
+81,Speaker System,134,16/01/2024
+82,Desk Organizer,142,16/01/2024
+83,Artwork,25,17/01/2024
+84,Wall Clock,147,17/01/2024
+85,Throw Blanket,64,17/01/2024
+86,Candlestick Holder,24,17/01/2024
+87,Coat Hangers,116,17/01/2024
+88,Drawer Liners,80,17/01/2024
+89,Ceramic Mug Set,34,17/01/2024
+90,Plant Pot,40,17/01/2024
+91,Wall Art,22,17/01/2024
+92,Plant,21,18/01/2024
+93,Curtains,45,18/01/2024
+94,Wireless Charger,22,18/01/2024
+95,Drawer Dividers,12,18/01/2024
+96,Chair Cushion,124,18/01/2024
+97,Shredder,70,18/01/2024
+98,Notebook Stand,78,18/01/2024
+99,Coasters Set,88,18/01/2024
+100,Desk Calendar,83,18/01/2024
+101,Desk Organizer,62,18/01/2024
+102,Air Purifier,138,19/01/2024
+103,Desk Chair Cover,143,19/01/2024
+104,Desk Drawer,95,19/01/2024
+105,Basket,14,19/01/2024
+106,Shelf,113,19/01/2024
+107,Pen Holder,59,20/01/2024
+108,Bean Bag,18,20/01/2024
+109,Candle Holder,22,20/01/2024
+110,Photo Frame,140,20/01/2024
+111,Art Print,98,20/01/2024
+112,Desk Fan,91,20/01/2024
+113,Table Lamp,42,20/01/2024
+114,Wall Art,127,20/01/2024
+115,Sofa,86,20/01/2024
+116,Chair Mat,33,20/01/2024
+117,Sunglasses,20,21/01/2024
+118,Desk Mat,67,21/01/2024
+119,Desk Drawer Dividers,93,21/01/2024
+120,Wall Mirror,30,21/01/2024
+121,Plant Stand,38,21/01/2024
+122,Sneakers,16,22/01/2024
+123,Sculpture,55,22/01/2024
+124,Desk Drawer Organizer,58,22/01/2024
+125,Desk Cable Management,148,22/01/2024
+126,Corkboard,115,22/01/2024
+127,Desk,68,23/01/2024
+128,Wall Art,27,23/01/2024
+129,Keyboard,55,24/01/2024
+130,Mirror Frame,133,24/01/2024
+131,Desk Organizer Set,112,24/01/2024
+132,File Organizer,97,24/01/2024
+133,Mouse Pad,34,25/01/2024
+134,Camera,136,25/01/2024
+135,Coat Rack,80,25/01/2024
+136,Desk Chair Mat,106,25/01/2024
+137,Desk Drawer Organizer Bins,127,25/01/2024
+138,Drawer Organizer Tray,146,25/01/2024
+139,Sunglasses,47,25/01/2024
+140,Wall Shelf,140,25/01/2024
+141,Mouse Pad,14,25/01/2024
+142,Desk Lamp,31,25/01/2024
+143,Drawer Dividers,79,25/01/2024
+144,Desk Chair Mat,17,25/01/2024
+145,Tea Set,147,26/01/2024
+146,Bathroom Organizer,94,26/01/2024
+147,Desk Shelf Organizer,47,26/01/2024
+148,Desk Chair,15,26/01/2024
+149,Headphones,13,27/01/2024
+150,Phone Stand,38,27/01/2024
+151,Water Bottle,103,27/01/2024
+152,Office Chair,26,27/01/2024
+153,Drawer Organizer,109,27/01/2024
+154,Whiteboard,82,27/01/2024
+155,Wall Clock,77,27/01/2024
+156,Storage Bins,43,27/01/2024
+157,Shelf,30,28/01/2024
+158,Desk Chair,84,28/01/2024
+159,Painting,25,29/01/2024
+160,Wall Organizer,136,29/01/2024
+161,Desk Tray Organizer,46,29/01/2024
+162,Pencil Holder,122,29/01/2024
+163,Office Plants,90,29/01/2024
+164,Coffee Table,49,29/01/2024
+165,Notebook,127,30/01/2024
+166,Bluetooth Earbuds,94,30/01/2024
+167,Wall Mirror,124,30/01/2024
+168,Desk Calendar,24,30/01/2024
+169,Desk Organizer,37,30/01/2024
+170,Desk Mat,103,30/01/2024
+171,Bookcase,70,30/01/2024
+172,Desk Cable Organizer,58,31/01/2024
+173,itemname,101,24/01/2024
+174,erg,119,24/01/2024
