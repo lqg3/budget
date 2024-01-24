@@ -32,8 +32,11 @@ def main():
         if d == "CHANGE_PROFILE":
             profile = select_profile(mode="CHANGE")
         elif d == "CREATE":
-            profile = profiles(1)
-
+            while True:
+                try:
+                    profile = profiles(1)
+                except FileExistsError: 
+                    print("Profile name already exists. Please choose another profile name.")
 
 def main_menu(profile):
     if (
@@ -132,7 +135,7 @@ def select_profile(mode: str = "NORMAL"):
     while True:
         sel: str = input("Select profile: ")
         if sel.upper() == "CREATE":
-            return profiles(1)  # create a new profile
+            return profiles()  # create a new profile
 
         elif os.path.exists(f"user_profiles/{sel}"):
             break
