@@ -6,6 +6,7 @@ import os
 import shutil
 from time import sleep
 import tabulate
+from calendar import monthrange
 
 profile = None
 
@@ -44,7 +45,7 @@ def main_menu(profile):
     ):  # if user hasn't selected profile yet, this conditional will select a profile.
         return "CREATE"
     sel = input(
-        "1. Add purchase\n2. View data\n3. Change profile\n4. Exit\nSelection: "
+        "1. Add purchase\n2. View data\n3. Change profile\n4. Calculate something\n5. Exit\nSelection: "
     )
     match (sel):
         case "1":
@@ -73,6 +74,29 @@ def main_menu(profile):
         case "3":
             return "CHANGE_PROFILE"
         case "4":
+            while True:
+                try:
+                    sel: int = int(input("1. Subtract\n2.Subtraction\n3.Multipllication\n4.Division\n5. Exit"))
+                    x:float = float(input("First number: "))
+                    y:float = float(input("Second number: "))
+
+                    match(sel):
+                        case 1:
+                            Calculator.add(x, y)
+                        case 2:
+                            Calculator.subtract(x, y)
+                        case 3:
+                            Calculator.multiply(x, y)
+                        case 4:
+                            Calculator.divide(x, y)
+                        case 5:
+                            break
+                        case _:
+                            print("Invalid operation!")
+
+                except ValueError:
+                    print("Must be a number!")
+        case "5":
             exit()
         case _:
             print("Please select a valid option.")
@@ -90,7 +114,7 @@ def add_purchase(profile_name: str):
             price: float = float(input("Price: "))
             break
         except ValueError:
-            print("Price must be an integer or a float!")
+            print("Price must be an integer or a floating point number!")
 
     i = 0
     try:
@@ -147,7 +171,6 @@ def select_profile(mode: str = "NORMAL"):
             else:
                 pass
     return sel
-
 
 def profiles(create: int = 0):
     """
@@ -231,7 +254,6 @@ def profiles(create: int = 0):
             case _:
                 print("Please type a valid input.")
 
-
 def show_data(
     profile_name: str, year: int, month: int, mode: str = "table"
 ):  # shows the user profile data
@@ -240,7 +262,7 @@ def show_data(
         return tabulate.tabulate(
             df,
             headers=["Number", "Item Name", "Item Price", "Purchase Date"],
-            tablefmt="pretty",
+            tablefmt="0pretty",
             showindex=False,
         )
     else:
@@ -252,12 +274,46 @@ def show_data(
         plt.xticks(rotation=45, ha="right")
         plt.tight_layout()
         plt.show()
-
+    monthly_sum, average = daily_average(profile_name, year, month)
+    print(f"Spent on this month: {monthly_sum:,.2f}")
+    print(f"Daily average: {average:,.2f}")
 
 def print_user_profiles():
     for profile_name in os.listdir("user_profiles"):
         print(f"►", profile_name)
 
+def sum_monthly(profile_name: str, year: int, month: int):
+    df = pd.read_csv(f"user_profiles/{profile_name}/budget_{year}/{month}.csv")
+    total = 0
+    for price in df["item_price"]:
+        total += price
+
+    return total
+
+def daily_average(profile_name: str, year: int, month: int):
+    days = float(monthrange(year, month)[1])
+    total = float(sum_monthly(profile_name, year, month))
+
+    return total, (total / days)
+
+class Calculator:
+    def __init__(self):
+        pass
+
+    def add(self, x, y):
+        return x + y
+
+    def subtract(self, x, y):
+        return x - y
+
+    def multiply(self, x, y):
+        return x * y
+
+    def divide(self, x, y):
+        if y != 0:
+            return x / y
+        else:
+            return "Cannot divide by zero"
 
 if __name__ == "__main__":
     greet()

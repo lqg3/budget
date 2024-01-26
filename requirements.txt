@@ -1,0 +1,5 @@
+pytest
+pyfiglet
+pandas
+matplotlib
+tabulate
