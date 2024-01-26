@@ -33,7 +33,7 @@ This will install all the required libraries (if not installed yet).
 <details>
 <summary><code>python projcet.py</code></summary>
 <br>
-```
+<code>
    __                                               __   
  _|  |_ ______ ______ ______ ______ ______ ______ _|  |_ 
 |_    _|______|______|______|______|______|______|_    _|
@@ -61,6 +61,6 @@ Profiles:
 ► profile29
 Type 'CREATE' to create a new profile.
 Select profile:
-```
+</code>
 Select any profile by the profile name, and you'll be taken to the main menu.
 </details>
