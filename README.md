@@ -126,3 +126,19 @@ This function will sum the user's monthly spend.
 This function will average the user spending each day in a month.
 
 ### `Calculator` `class`
+Simple calculator class to add, subtract, multiply, and divide two numbers.
+
+## Fucntions | *etc.py*
+
+### `exit_confirmation(function_name)` `function`
+Function to call the main function, `function_name` argument to select what the main function is named.
+
+### `render_text(text: str, font: str='drpepper)` `function`
+Function to initialize figlet and return an ASCII art of select `text`, with the default font of `drpepper`.
+
+___
+
+## Data Storing
+This application stores data in the 'user_profiles' > 'profile_name' > 'budget_(year)' > 'month' folder.
+Each month folder is named 1 - 12; each using a CSV file.
+
