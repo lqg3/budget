@@ -48,7 +48,7 @@ _____
 |_    _|______|______|______|______|______|______|_    _|
   |__|                                             |__|
 </code>
-```
+<code>
 Welcome!
 2024-01-27 6:51:13
 
@@ -60,7 +60,7 @@ Profiles:
 ► profile29
 Type 'CREATE' to create a new profile.
 Select profile:
-```
+</code>
 Select any profile by the profile name, and you'll be taken to the main menu.
 </details>
 
