@@ -128,7 +128,7 @@ This function will average the user spending each day in a month.
 ### `Calculator` `class`
 Simple calculator class to add, subtract, multiply, and divide two numbers.
 
-## Fucntions | *etc.py*
+## Functions | *ETC.PY*
 
 ### `exit_confirmation(function_name)` `function`
 Function to call the main function, `function_name` argument to select what the main function is named.
