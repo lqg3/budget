@@ -33,13 +33,12 @@ _____
 <details>
 <summary><code>python project.py</code></summary>
 <br>
-<code>
-```
+```plaintext
    __                                               __   
  _|  |_ ______ ______ ______ ______ ______ ______ _|  |_ 
 |_    _|______|______|______|______|______|______|_    _|
   |__|                                             |__|  
-```
+
    __     ______           __               __      __ 
   |  |   |   __ \.--.--.--|  |.-----.-----.|  |_   |  |
   |  |   |   __ <|  |  |  _  ||  _  |  -__||   _|  |  |
@@ -49,7 +48,7 @@ _____
  _|  |_ ______ ______ ______ ______ ______ ______ _|  |_
 |_    _|______|______|______|______|______|______|_    _|
   |__|                                             |__|
-```
+
 
 Welcome!
 2024-01-27 6:51:13
@@ -62,7 +61,7 @@ Profiles:
 ► profile29
 Type 'CREATE' to create a new profile.
 Select profile:
-</code>
+```
 Select any profile by the profile name, and you'll be taken to the main menu.
 </details>
 
